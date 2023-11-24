@@ -1,0 +1,1 @@
+C:\Users\Nicolaas Danneels\source\repos\MySaasTemplate\WebApp\webapp.client\obj\Release\webapp.client.esproj.CoreCompileInputs.cache

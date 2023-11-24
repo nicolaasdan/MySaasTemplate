@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Nicolaas Danneels\source\repos\MySaasTemplate\WebApp\WebApp.Server\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2023-11-24T13:46:44.3571656Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
