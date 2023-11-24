@@ -3,7 +3,7 @@ using MySaasTemplate.Application.TodoLists.Commands.CreateTodoList;
 using MySaasTemplate.Application.TodoLists.Commands.UpdateTodoList;
 using MySaasTemplate.Domain.Entities;
 
-using static Testing;
+using static MySaasTemplate.Application.FunctionalTests.TestingBase;
 
 namespace MySaasTemplate.Application.FunctionalTests.TodoLists.Commands;
 public class UpdateTodoListTests : BaseTestFixture

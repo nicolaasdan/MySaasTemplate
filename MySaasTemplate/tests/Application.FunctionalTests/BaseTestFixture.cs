@@ -1,6 +1,6 @@
 ﻿namespace MySaasTemplate.Application.FunctionalTests;
 
-using static Testing;
+using static TestingBase;
 
 [TestFixture]
 public abstract class BaseTestFixture

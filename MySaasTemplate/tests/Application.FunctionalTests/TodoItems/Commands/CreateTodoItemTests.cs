@@ -3,7 +3,7 @@ using MySaasTemplate.Application.TodoItems.Commands.CreateTodoItem;
 using MySaasTemplate.Application.TodoLists.Commands.CreateTodoList;
 using MySaasTemplate.Domain.Entities;
 
-using static Testing;
+using static MySaasTemplate.Application.FunctionalTests.TestingBase;
 
 namespace MySaasTemplate.Application.FunctionalTests.TodoItems.Commands;
 public class CreateTodoItemTests : BaseTestFixture

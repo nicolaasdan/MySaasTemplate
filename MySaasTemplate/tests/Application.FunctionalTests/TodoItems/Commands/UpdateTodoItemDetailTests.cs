@@ -5,7 +5,7 @@ using MySaasTemplate.Application.TodoLists.Commands.CreateTodoList;
 using MySaasTemplate.Domain.Entities;
 using MySaasTemplate.Domain.Enums;
 
-using static Testing;
+using static MySaasTemplate.Application.FunctionalTests.TestingBase;
 
 namespace MySaasTemplate.Application.FunctionalTests.TodoItems.Commands;
 public class UpdateTodoItemDetailTests : BaseTestFixture

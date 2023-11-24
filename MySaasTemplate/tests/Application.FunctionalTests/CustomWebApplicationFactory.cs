@@ -6,10 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 using MySaasTemplate.Application.Common.Interfaces;
 using MySaasTemplate.Infrastructure.Data;
 
-using static Testing;
+using static MySaasTemplate.Application.FunctionalTests.TestingBase;
 
 namespace MySaasTemplate.Application.FunctionalTests;
 public class CustomWebApplicationFactory : WebApplicationFactory<Program>

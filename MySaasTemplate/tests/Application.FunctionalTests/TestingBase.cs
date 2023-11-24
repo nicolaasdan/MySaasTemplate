@@ -8,7 +8,7 @@ using MySaasTemplate.Infrastructure.Identity;
 
 namespace MySaasTemplate.Application.FunctionalTests;
 [SetUpFixture]
-public partial class Testing
+public partial class TestingBase
 {
     private static ITestDatabase _database;
     private static CustomWebApplicationFactory _factory = null!;

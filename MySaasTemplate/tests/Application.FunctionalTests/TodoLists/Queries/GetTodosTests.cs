@@ -2,7 +2,7 @@
 using MySaasTemplate.Domain.Entities;
 using MySaasTemplate.Domain.ValueObjects;
 
-using static Testing;
+using static MySaasTemplate.Application.FunctionalTests.TestingBase;
 
 namespace MySaasTemplate.Application.FunctionalTests.TodoLists.Queries;
 public class GetTodosTests : BaseTestFixture

@@ -2,7 +2,7 @@
 using MySaasTemplate.Application.TodoLists.Commands.DeleteTodoList;
 using MySaasTemplate.Domain.Entities;
 
-using static Testing;
+using static MySaasTemplate.Application.FunctionalTests.TestingBase;
 
 namespace MySaasTemplate.Application.FunctionalTests.TodoLists.Commands;
 public class DeleteTodoListTests : BaseTestFixture
