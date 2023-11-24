@@ -53,7 +53,7 @@ jobs:
         dotnet publish --configuration Release --runtime win-x86 --self-contained --output ./publish
         cd publish
         zip -r ./publish.zip .
-      working-directory: ./src/Web/
+      working-directory: ./src/WebApp/
 
     - name: Upload website artifact (website)
       if: ${{ inputs.build-artifacts == true }}
